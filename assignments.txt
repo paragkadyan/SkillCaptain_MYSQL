@@ -1,0 +1,3 @@
+DAY 6:
+DROP TABLE Employees;
+TRUNCATE TABLE Employees;
