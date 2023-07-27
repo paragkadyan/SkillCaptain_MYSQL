@@ -1,3 +1,10 @@
 DAY 6:
 DROP TABLE Employees;
 TRUNCATE TABLE Employees;
+
+Day 7:
+SELECT Department, COUNT(*) AS totalEmployees
+FROM Employees
+GROUP BY Department
+HAVING COUNT(*) > 2
+ORDER BY COUNT(*) DESC;
